@@ -31,7 +31,7 @@ class CharacterBox extends Component{
             <h1>Character info</h1>
     
             <CharacterDetail/>
-            <CharacterSelector/>
+            <CharacterSelector characters= {this.state.characters}/>
             </div>
             )
         }
