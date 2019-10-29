@@ -6,6 +6,7 @@ class CharacterBox extends Component{
     render(){
         return(
         <div className="character-box">
+            <h1>Character info</h1>
             <CharacterDetail/>
             <CharacterSelector/>
             </div>
